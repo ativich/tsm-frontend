@@ -1,0 +1,448 @@
+body {
+    /* width: 100%; */
+    background-color: rgb(250, 230, 240);
+    /* float: left; */
+}
+header {
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    float: left;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 100%;
+    float: left;
+    display: flex;
+    margin-top: 200px;
+}
+.box{
+    font-size: 12px;
+    padding: 10px 0px 10px 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+    /* background-color: rgb(13, 11, 32); */
+}
+.box:hover{
+    background-color: rgb(230, 230, 230);
+}
+menu {
+    background-color: rgb(13, 11, 32);
+    height: 600px;
+    width: 200px;
+    margin-top: -70px;
+    float: left;
+}
+
+.body {
+    width: 900px;
+    background-color: rgb(250, 230, 240);
+    float: left;
+}
+
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 28, 70);
+    cursor: pointer;
+}
+
+.company,
+.operation,
+.travelmap,
+.analysis {
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-left: -20px;
+}
+
+.logout {
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 28, 70);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    margin-left: -30px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.logout:hover {
+    background-color: rgb(48, 43, 92);
+}
+
+.button:hover {
+    background-color: rgb(48, 43, 92);
+}
+
+a {
+    text-decoration: none;
+    margin: 5px 0px 10px 5px;
+    color: rgb(180, 180, 180);
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.bi-chevron-up,
+.bi-chevron-down {
+    float: right;
+}
+
+.heardetal {
+    padding: 35px 0px 5px 0px;
+    margin-left: -80px;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.icon-container {
+    width: 35px;
+    /* ปรับขนาดของ container ตามที่ต้องการ */
+    height: 35px;
+    border-radius: 50%;
+    /* กำหนดให้มีรูปร่างเป็นวงกลม */
+    overflow: hidden;
+    /* ซ่อนส่วนที่อยู่นอกเส้นขอบวงกลม */
+    border: 1px solid rgb(206, 203, 203);
+}
+
+.line {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.iconcontainer {
+    margin-right: 10px;
+    display: flex;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(206, 203, 203);
+    background-color: rgb(224, 229, 233);
+    color: rgb(31, 115, 172);
+    cursor: pointer;
+}
+
+.round-icon {
+    width: 100%;
+    /* ขยายขนาดรูปภาพให้เต็ม container */
+    height: 100%;
+    object-fit: cover;
+    /* กำหนดให้รูปภาพขยาย/ย่อตาม container */
+}
+
+.iconbut {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 200px;
+    float: right;
+    cursor: pointer;
+}
+
+.Message {
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    /* margin-left: 5%; */
+    column-gap: 1px;
+    row-gap: 1px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Messagedata {
+    background-color: rgb(255, 255, 255);
+}
+
+.messagepeople {
+    /* background-color: blue; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.messagepeople:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.sendbutton {
+    background-color: rgb(52, 106, 253);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+}
+
+.inputdata {
+    background-color: rgb(240, 240, 240);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.Messagedata5 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+.spean {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 1px 15px 1px 10px;
+    margin: 10px 10px 30px 10px;
+    float: left;
+}
+
+.container5 {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 1px 15px 1px 10px;
+    margin: -15px 10px 10px 10px;
+    float: left;
+}
+
+.timeleft5 {
+    font-size: 15px;
+    float: left;
+    color: #999;
+    margin: -15px 0px 0px 15px;
+}
+
+.darker5 {
+    background-color: #2255e2;
+    color: #f1f1f1;
+    margin: 30px 10px 30px 10px;
+    text-align: right;
+    float: right;
+    /* right: 20px; */
+}
+
+.darker {
+    background-color: #2255e2;
+    color: #f1f1f1;
+    text-align: right;
+    float: right;
+}
+
+.time-right {
+    font-size: 10px;
+    float: right;
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.time-left {
+    font-size: 10px;
+    float: left;
+    color: #999;
+    margin: 5px 0px 0px -5px;
+}
+
+.timeleft {
+    font-size: 15px;
+    float: left;
+    color: #999;
+    margin: 7px 0px 0px 15px;
+}
+
+.time-left {
+    font-size: 10px;
+    float: left;
+    color: #999;
+    margin: 5px 0px 0px -5px;
+}
+
+.data {
+    /* background-color: rgb(255, 255, 255); */
+    width: 90%;
+    /* margin-left: 5%; */
+    column-gap: 1px;
+    row-gap: 1px;
+    display: grid;
+    /* grid-template-columns: 30% 70%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.weekdays {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+}
+.weekdays li {
+    padding: 20px 0px 20px 0px;
+    display: inline-block;
+    width: 14.285%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+.days {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+.days li {
+    padding: 10px 0px 70px 0px;
+    display: inline-block;
+    height: 100%;
+    width: 14.06%;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgb(250, 250, 250);
+}
+
+/* .days {
+    padding: 50px 0px 50px 5px;
+
+    background: #ffffff;
+    margin: 0;
+
+    padding: 5px;
+}
+.days li {
+    margin-left: 5px;
+
+    margin: 0;
+    padding: 10px 0px 70px 5px;
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+
+    margin-bottom: 5px;
+
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid black;
+} */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+.weekdays0 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    color: #f1f1f1;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.days0 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ebebeb;
+    color: #f1f1f1;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.days00 {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 0px 0px 10px;
+    height: 100px;
+    cursor: pointer;
+}
+.days0 :hover {
+    background-color: #e7e7e7;
+}
+.days000 {
+    background-color: #e4e4e4;
+    color: #000000;
+    border-left: 3px solid rgb(4, 0, 255);
+    margin-left: -5px;
+    font-size: 14px;
+}
+.car {
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 16px;
+}
+.car select {
+    width: 100%;
+    padding: 10px; 
+    border-radius: 5px; 
+    font-size: 16px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+}
+.car input {
+    width: 96%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+}
+.arrow-right {
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow-right:hover {
+    color: #1abc9c;
+}
+
+.mapleft {
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 170px;
+    margin: 10px;
+}
+.mapright {
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 230px;
+    height: 100%;
+    margin: 10px;
+}
+.mapcenter {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 100px;
+    margin: 10px;
+    margin-top: 350px;
+}
+.mapleft0 {
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 230px;
+    margin: 10px;
+}
+
+
+  
