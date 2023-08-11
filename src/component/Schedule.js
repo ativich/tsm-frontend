@@ -134,24 +134,29 @@ const Schedule = () => {
             <i class="bi bi-box-arrow-in-right"></i><span>  ออกจากระบบ</span>
           </div>
         </menu>
-
-
         <div >
-
-
           <body className='body' style={{marginLeft:"5%"}} >
-            {/* <div className='' style={{marginTop:"30px",marginBottom:"-25px"}}> 
+            <div className='' style={{marginTop:"30px",marginBottom:"-25px"}}> 
               <div className='spean'>
-                <div style={{fontSize:"25px",marginTop:"-15px"}}>
-                  <p style={{color:" rgb(100, 100, 100)"}}><b>ตารางการเดินรถ</b></p>
+                <div className='tarank'>
+                  <p><b>ตารางการเดินรถ</b></p>
                 </div>
-                <div style={{fontSize:"16px"}}>
+                <div className='don' style={{fontSize:"16px"}}>
                   <p style={{color:" rgb(100, 100, 100)"}}><b>มีนาคม / <span style={{color:"blue"}}> 2566</span></b></p>
                 </div>
               </div>
-            </div> */}
+            </div>
 
-            {/* <div style={{marginTop:"25px"}}>
+            <div className='table' style={{marginTop:"25px"}}>
+              <div className='herd0'>
+                <div className='spean'>
+                  <div style={{marginLeft:"20px"}}>มีนาคม 2566</div>
+                  <div className='spean'>
+                    <div style={{marginRight:"50px"}}><i class="bi bi-chevron-left"></i></div>
+                    <div style={{marginRight:"20px"}}><i class="bi bi-chevron-right"></i></div>
+                  </div>
+                </div>
+              </div>
               <div class="weekdays0">
                 <div>จันทร์</div>
                 <div>อังคาร</div>
@@ -169,7 +174,7 @@ const Schedule = () => {
                 <div class="days00">1</div>
                 <div class="days00">2</div>
                 <div class="days00">3</div>
-                <div class="days00">4<div className='days000'><b> สถานที่ปลายทาง 1</b> <label>ชนิดสินค้า : xxx </label>  <label>ประเภทรถ : xxx</label></div></div>
+                <div class="days00 ">4<div className='days000'><b> สถานที่ปลายทาง 1</b> <label>ชนิดสินค้า : xxx </label>  <label>ประเภทรถ : xxx</label></div></div>
                 <div class="days00">5</div>
                 <div class="days00">6</div>
                 <div class="days00">7</div>
@@ -182,7 +187,7 @@ const Schedule = () => {
                 <div class="days00">14</div>
                 <div class="days00">15</div>
                 <div class="days00">16</div>
-                <div class="days00">17<div className='days000'><b> สถานที่ปลายทาง 2</b> <label>ชนิดสินค้า : xxx </label>  <label>ประเภทรถ : xxx</label></div></div>
+                <div class="days00">17<div className='days000 '><b> สถานที่ปลายทาง 2</b> <label>ชนิดสินค้า : xxx </label>  <label>ประเภทรถ : xxx</label></div></div>
                 <div class="days00">18</div>
                 <div class="days00">19</div>
                 <div class="days00">20</div>
@@ -198,9 +203,12 @@ const Schedule = () => {
                 <div class="days00">30</div>
                 <div class="days00">31</div>
               </div>
+              <div className='deltil'>
+                <div><b>รายละเอียด</b></div>
+              </div>
             </div>
 
-            <div className='Messagedata'>
+            {/* <div className='Messagedata'>
               <div><p style={{marginLeft:"15px",marginRight:"15px",marginBottom:"10px",padding:"10px 5px 0px 20px",fontSize:"20px"}}><b>บริษัท 1</b></p></div>
               <div className='line'></div>
               <div className='car' >
@@ -239,9 +247,7 @@ const Schedule = () => {
               
             </div> */}
 
-
-
-            <dix>
+            {/* <dix>
               <div className='spean '>
                 <div style={{marginTop:"20px",marginLeft:"-50px"}}>
                   <div className='spean mapleft'><b style={{fontSize:"16px"}}>สถานที่ต้นทาง</b><span><i style={{color:"green"}} class="bi bi-geo-alt"></i></span></div>
@@ -259,7 +265,7 @@ const Schedule = () => {
               <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
                 <div className='mapcenter'>บันทึก</div>
               </div>
-            </dix>
+            </dix> */}
             
 
 
@@ -352,7 +358,27 @@ const Schedule = () => {
             <div className='Messagedata'><p style={{marginLeft:"15px",marginRight:"15px",padding:"10px 5px 10px 5px"}}><br></br><br></br><br></br></p></div>
           </body>
         </div> */}
+    
 
+    <div className='foot'>
+          <div className='box0' >
+            <a href="/Schedule" ></a>
+            <div style={{marginTop:"-15px"}}><i class="bi bi-calendar-range-fill"></i></div>
+            <div style={{fontSize:"12px"}}>การเดินรถ</div>
+          </div>
+          <div className='box0'>
+            <a href="/Phonemaps" ><div style={{color:"blue",marginTop:"-15px"}}><i class="bi bi-map-fill"></i></div>
+            <div style={{fontSize:"12px",color:"blue"}}>แผนที่</div></a>
+          </div>
+          <div className='box0'>
+            <a href="/Phonealert" ><div style={{marginTop:"-15px"}}><i class="bi bi-bell"></i></div>
+            <div style={{fontSize:"12px"}}>การแจ้งเตือน</div></a>
+          </div>
+          <div className='box0'>
+            <a href="/Phoneprofile" ><div style={{marginTop:"-15px"}}><i class="bi bi-person-circle"></i></div>
+            <div style={{fontSize:"12px"}}>โปรไฟล์</div></a>
+          </div>
+        </div>
     </div>
   );
 };

@@ -136,7 +136,7 @@ const Managethebusschedule = () => {
       </menu>
       <div >
         <body className='body' style={{marginLeft:"5%"}} >
-          <div className='' style={{marginTop:"30px",marginBottom:"-25px"}}> 
+          {/* <div className='' style={{marginTop:"30px",marginBottom:"-25px"}}> 
             <div className='spean'>
               <div style={{fontSize:"25px",marginTop:"-15px"}}>
                 <p style={{color:" rgb(100, 100, 100)"}}><b>ตารางการเดินรถ</b></p>
@@ -145,9 +145,9 @@ const Managethebusschedule = () => {
                 <p style={{color:" rgb(100, 100, 100)"}}><b>มีนาคม / <span style={{color:"blue"}}> 2566</span></b></p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div style={{marginTop:"25px"}}>
+          {/* <div style={{marginTop:"25px"}}>
             <div class="weekdays0">
               <div>จันทร์</div>
               <div>อังคาร</div>
@@ -194,9 +194,9 @@ const Managethebusschedule = () => {
               <div class="days00">30</div>
               <div class="days00">31</div>
             </div>
-          </div>
+          </div> */}
 
-          <div className='Messagedata'>
+          {/* <div className='Messagedata'>
             <div><p style={{marginLeft:"15px",marginRight:"15px",marginBottom:"10px",padding:"10px 5px 0px 20px",fontSize:"20px"}}><b>บริษัท 1</b></p></div>
             <div className='line'></div>
             <div className='car' >
@@ -231,7 +231,7 @@ const Managethebusschedule = () => {
                 </div>
               </div>
             </div><br></br><br></br><br></br>
-          </div>
+          </div> */}
 
           <dix>
             <div className='spean '>
